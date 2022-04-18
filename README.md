@@ -26,33 +26,6 @@ Some key arguments that I used:
 - page_size (required): This command line argument is required. It asks for how many records to request from the API per call. 
 - num_pages (optional): This command line argument is optional. If not provided, my script should continue requesting data until the entirety of the content has been exhausted. If this argument is provided, continue querying for data num_pages times. 
 
-#### In Dockerfile
-```python
-# We want to go from the base image of python:3.9
-FROM python:3.9
-
-# This is the equivalent of “cd /app” from our host machine
-WORKDIR /app
-
-# Let’s copy everything into /app
-COPY .  /app
-
-# Installs thedependencies. Passes in a text file.
-RUN pip install -r requirements.txt
-
-# This will run when we run our docker container
-ENTRYPOINT ["python", "src/main.py"]
-```
-
-#### In requirements.txt
-```python
-sodapy==2.1.0
-requests==2.26.0
-```
-
-#### In main.py
-https://github.com/jinote/nyc_parking_violations_project/blob/main/Dockerfile
-
 **Step4**: Visualizing and Analysis on Kibana (OpenSearch Dashboard)
 
 ![Alt text](https://github.com/jinote/my-projects/blob/main/BigDataTech/Kibana%20Dashboard.jpg)
