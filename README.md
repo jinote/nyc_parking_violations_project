@@ -32,11 +32,8 @@ Some key arguments that I used:
 
 
 **Observation:**
-1. Parking violations have occured the most in photo school zone speed violation points, for the past 10 years (2012-2021)
-2. Parking violations mostly occured in the morning. 11:30AM was the time when it occured most.  
-3. New York has the highest fine amounts in 2020-2021. 
-4. Unlike average fine amounts, interest, penalty, and reduction amounts have decreased in the past 10 years. 
-
+- Parking violations have occured the most in photo school zone speed violation points, for the past 10 years (2012-2021)
+- Parking violations mostly occured in the morning. 11:30AM was the time when it occured most.  
 
 
 
