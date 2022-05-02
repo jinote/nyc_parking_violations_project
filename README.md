@@ -8,7 +8,7 @@ I wrote a python script that runs in docker to consume data from the Socrata Ope
 
 ### Technology/Framework used
 - Docker
-- Service: Elasticsearch, Kibana
+- Elasticsearch, Kibana
 - sodapy, sys, argparse, json, requests, os
 
 ### Usage
